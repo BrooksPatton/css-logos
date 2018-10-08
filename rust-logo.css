@@ -1,0 +1,22 @@
+.rust-logo {
+  background-color: #8D513A;
+  mask-image: url('./rust-logo-blk.svg');
+  mask-repeat: no-repeat;
+  mask-size: 20em;
+  width: 20em;
+  height: 20em;
+  animation-name: rotate;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}

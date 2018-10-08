@@ -1,0 +1,20 @@
+.brookzerker-logo > div.outline {
+  position: relative;
+  outline: 2px solid #555;
+  width: 6em;
+  background-color: #333;
+  padding: 1em;
+}
+
+.brookzerker-logo .letter {
+  font-size: 6em;
+  color: brown;
+}
+
+.brookzerker-logo .sub-letter {
+  color: skyblue;
+  position: absolute;
+  font-size: 2em;
+  top: 10px;
+  right: 15px;
+}
