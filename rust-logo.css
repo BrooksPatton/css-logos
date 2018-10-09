@@ -6,9 +6,9 @@
   width: 20em;
   height: 20em;
   animation-name: rotate;
-  animation-duration: 0.5s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier;
+  animation-timing-function: steps(25, end);
 }
 
 @keyframes rotate {
@@ -17,6 +17,6 @@
   }
 
   to {
-    transform: rotate(10deg);
+    transform: rotate(360deg);
   }
 }
