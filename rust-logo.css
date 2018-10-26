@@ -1,8 +1,11 @@
 .rust-logo {
   background-color: #8D513A;
   mask-image: url('./rust-logo-blk.svg');
+  -webkit-mask-image: url('./rust-logo-blk.svg');
   mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
   mask-size: 20em;
+  -webkit-mask-size: 20em;
   width: 20em;
   height: 20em;
   animation-name: rotate;
